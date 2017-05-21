@@ -7,5 +7,9 @@ public class RPNCalc {
 		String[] inputVal = expr.split(",");
 		return Integer.parseInt(inputVal[0])+Integer.parseInt(inputVal[1]);
 	}
+	public boolean IsOperator(String expr)
+	{
+		return true;
+	}
 
 }
